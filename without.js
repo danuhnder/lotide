@@ -38,3 +38,5 @@ const stuffIFoundInTheFruitBasket = ["pear", "ruby", "apple", "squash"];
 const notAFruit = ["ruby", "diamond"];
 assertArraysEqual(without(stuffIFoundInTheFruitBasket, notAFruit),["pear", "apple", "squash"]);
 console.log(stuffIFoundInTheFruitBasket);
+
+module.exports = without;

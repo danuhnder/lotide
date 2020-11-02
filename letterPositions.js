@@ -12,6 +12,7 @@ const letterPositions = function(string) {
   }
   return results;
 };
+module.exports = letterPositions;
 
 console.log(letterPositions("hello there"));
 console.log(letterPositions("general kenobi"));

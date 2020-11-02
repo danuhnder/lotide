@@ -19,6 +19,9 @@ const countLetters = function(string) {
   }
   return letterCount;
 };
+
+module.exports = countLetters;
+
 console.log(countLetters("hello there"));
 assertEqual(countLetters("hello there"), { h: 2, e: 3, l: 2, o: 1, t: 1, r: 1 });
 console.log(countLetters("general kenobi"));

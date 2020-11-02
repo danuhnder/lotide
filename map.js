@@ -40,3 +40,5 @@ const tail = function(array) {
 assertArraysEqual(map(['chicken', 'fingers', 'pig', 'trotters'], word => word[1]), ['h', 'i', 'i', 'r']);
 assertArraysEqual(map([3, 4, 5, 6, 7], num => num * 7), [21, 28, 35, 42, 49]);
 assertArraysEqual(map(['chicken', 'fingers', 'pig', 'trotters'], tail), ['hicken', 'ingers', 'ig', 'rotters']);
+
+module.exports = map;
